@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
 }
 
 /* HEADER */
@@ -25,26 +26,24 @@ header div img {
     padding: 40px 40px 35px;
 }
 
-#div-first-img div:first-child {
-    padding-bottom: 20px;
-}
-
 #div-first-img h1 {
     font-family: 'Montserrat', sans-serif;
+    line-height: normal;
     font-size: 40px;
     color: #25a2c3;
     text-align: center;
+    padding-bottom: 20px;
 }
 
-#div-first-img div:not(:first-child) {
+#div-first-img p {
     /* word-spacing: 6px; */
-    line-height: 1.5;
     font-size: 18px;
     padding-inline: 20px;
     text-align: center;
 }
 
 #div-first-img button {
+    font-family: 'Montserrat', sans-serif;
     display: block;
     margin-inline: auto;
     margin-top: 20px;
@@ -54,5 +53,7 @@ header div img {
     border: none;
     border-radius: 8px;
     font-weight: 600;
-
 }
+
+/* MAIN */
+
