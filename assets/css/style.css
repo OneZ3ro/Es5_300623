@@ -1,19 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital@0;1&display=swap');
 
 /* Genreale */
 
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.65;
+    font-size: 1.2rem;
 }
 
 h3 {
+    font-family: 'Open Sans', sans-serif;
     color: #25a2c3;
     font-weight: 600;
+    margin: 15px 0 10px;
 }
 
 main, footer {
-    margin: 40px 40px 35px;
+    margin-top: 40px;
 }
 
 /* HEADER */
@@ -45,8 +48,6 @@ header div img {
 }
 
 #div-first-img p {
-    /* word-spacing: 6px; */
-    font-size: 18px;
     padding-inline: 20px;
     text-align: center;
 }
@@ -56,18 +57,23 @@ header div img {
     display: block;
     margin-inline: auto;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 15px 30px;
     background-color: #f14c2f;
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 600;
+    font-size: 1.2rem;
 }
 
 /* MAIN - GENERALE */
 
-#prima-parte, #seconda-parte {
-    box-shadow: 3px 3px 5px lightgray;
+main {
+    margin-inline: 25px;
+}
+
+#prima-parte, #seconda-parte, #terza-parte {
+    border: 1px solid lightgray;
 }
 
 .computer {
@@ -76,16 +82,53 @@ header div img {
     width: 100%
 }
 
+.box-h3-p {
+    text-align: center;
+    padding: 0 30px 30px;
+    margin: 15px 10px 10px;
+}
+
+
 /* MAIN - PRIMA PARTE */
 
-/* #prima-parte {
+#computer-tondo {
+    border-radius: 50%;
+    width: 85%;
+}
 
-} */
+#box-orange {
+    margin: 0 0 50px;
+    background-color: #f11b04;
+    color: white;
+}
+
+h2 {
+    font-size: 33px;
+    padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#p-cursive {
+    font-style: oblique;
+    padding-block: 30px;
+}
+
+#box-orange div {
+    padding-bottom: 30px;
+}
+
+#box-orange div p:nth-of-type(1) {
+    font-size: 1.5rem;
+}
+
+#box-orange div p:nth-of-type(2) {
+    font-size: 1.1rem;
+}
 
 /* MAIN - SECONDA PARTE */
 
-#seconda-parte {
-    margin-top: 35px;
+#seconda-parte, #terza-parte {
+    margin-top: 40px;
 }
 
 /* FOOTER */
