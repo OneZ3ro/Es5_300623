@@ -74,6 +74,7 @@ main {
 
 #prima-parte, #seconda-parte, #terza-parte {
     border: 1px solid lightgray;
+    border-radius: 7px;
 }
 
 .computer {
@@ -104,13 +105,13 @@ main {
 
 h2 {
     font-size: 33px;
-    padding-top: 40px;
+    padding-block: 35px;
     font-family: 'Montserrat', sans-serif;
 }
 
 #p-cursive {
     font-style: oblique;
-    padding-block: 30px;
+    padding-bottom: 30px;
 }
 
 #box-orange div {
@@ -135,4 +136,29 @@ h2 {
 
 footer {
     margin-bottom: 0;
+    padding-bottom: 40px;
+    background-color: #25a2c3;
+    color: white;
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+}
+
+footer h2 {
+    padding-bottom: 0;
+    font-size: 40px;
+}
+
+#contatti {
+    padding: 20px 0;
+}
+
+#contatti p a {
+    color: white;
+}
+
+#copyright {
+    padding-block: 20px;
 }
