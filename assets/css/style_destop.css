@@ -35,7 +35,7 @@ header div img {
 #div-first-img {
     background-image: url("../images/banner.jpg");
     background-size: cover;
-    padding: 40px;
+    padding: 140px 220px;
 }
 
 #div-first-img h1 {
@@ -68,24 +68,40 @@ header div img {
 
 /* MAIN - GENERALE */
 
-#prima-parte, #seconda-parte, #terza-parte {
+#seconda-parte, #terza-parte, #il-tuo-pc {
     border: 1px solid lightgray;
     border-radius: 7px;
 }
 
 .computer {
-    display: block;
-    margin: 0 auto;
-    width: 100%
+    display: inline-block;
+    margin: 0;
+    height: 200px;
 }
 
-.box-h3-p {
-    padding: 10px 0 10px 20px;
+.box-h3-p-orange {
+    text-align: center;
+    padding: 10px;
     margin: 10px;
 }
 
+.box-h3-p2 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+.box-h3-p1 {
+    text-align: left;
+    max-width: 405px;
+    padding-left: 20px;
+}
 
 /* MAIN - PRIMA PARTE */
+
+#prima-parte {
+    margin-bottom: 50px;
+}
 
 #first-flex {
     display: flex;
@@ -93,19 +109,23 @@ header div img {
     justify-content: center;
 }
 
+#img-pc-tnd {
+    padding-right: 30px;
+}
+
 #sidebar {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    padding-left: 30px;
 }
 
 #computer-tondo {
     border-radius: 50%;
-    width: 85%;
+    height: 360px;
 }
 
 #box-orange {
-    margin: 0 0 50px;
+    margin: 0;
     background-color: #f11b04;
     color: white;
     text-align: center;
@@ -138,8 +158,11 @@ h2 {
 
 #second-flex {
     display: flex;
+    justify-content: space-between;
     padding: 40px;
+    margin-block: 30px;
 }
+
 
 /* FOOTER */
 
@@ -150,6 +173,7 @@ footer {
     color: white;
     text-align: center;
 }
+
 
 hr {
     width: 50%;
@@ -164,10 +188,15 @@ footer h2 {
     padding: 20px 0;
 }
 
+
 #contatti p a {
     color: white;
 }
 
 #copyright {
     padding-block: 20px;
+}
+
+#copyright a {
+    color: white;
 }
