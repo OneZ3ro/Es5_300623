@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+/* Genreale */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+
+#black-banner {
+    background-color: black;
+    padding-block: 30px;
+}
+
+header div img {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+#div-first-img {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    padding: 40px 40px 35px;
+}
+
+#div-first-img div:first-child {
+    padding-bottom: 20px;
+}
+
+#div-first-img h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #25a2c3;
+    text-align: center;
+}
+
+#div-first-img div:not(:first-child) {
+    /* word-spacing: 6px; */
+    line-height: 1.5;
+    font-size: 18px;
+    padding-inline: 20px;
+    text-align: center;
+}
+
+#div-first-img button {
+    display: block;
+    margin-inline: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f14c2f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+
+}
