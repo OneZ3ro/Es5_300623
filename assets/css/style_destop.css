@@ -24,18 +24,18 @@ main, footer {
 #black-banner {
     background-color: black;
     padding-block: 30px;
+    padding-left: 30px;
 }
 
 header div img {
     height: 50px;
-    display: block;
-    margin: 0 auto;
+    text-align: left;
 }
 
 #div-first-img {
     background-image: url("../images/banner.jpg");
     background-size: cover;
-    padding: 40px 40px 35px;
+    padding: 40px;
 }
 
 #div-first-img h1 {
@@ -68,10 +68,6 @@ header div img {
 
 /* MAIN - GENERALE */
 
-main {
-    margin-inline: 25px;
-}
-
 #prima-parte, #seconda-parte, #terza-parte {
     border: 1px solid lightgray;
     border-radius: 7px;
@@ -84,13 +80,24 @@ main {
 }
 
 .box-h3-p {
-    text-align: center;
-    padding: 0 30px 30px;
-    margin: 15px 10px 10px;
+    padding: 10px 0 10px 20px;
+    margin: 10px;
 }
 
 
 /* MAIN - PRIMA PARTE */
+
+#first-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
 
 #computer-tondo {
     border-radius: 50%;
@@ -101,6 +108,7 @@ main {
     margin: 0 0 50px;
     background-color: #f11b04;
     color: white;
+    text-align: center;
 }
 
 h2 {
@@ -128,8 +136,9 @@ h2 {
 
 /* MAIN - SECONDA PARTE */
 
-#seconda-parte, #terza-parte {
-    margin-top: 40px;
+#second-flex {
+    display: flex;
+    padding: 40px;
 }
 
 /* FOOTER */
