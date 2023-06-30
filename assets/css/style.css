@@ -7,6 +7,15 @@ body {
     line-height: 1.65;
 }
 
+h3 {
+    color: #25a2c3;
+    font-weight: 600;
+}
+
+main, footer {
+    margin: 40px 40px 35px;
+}
+
 /* HEADER */
 
 #black-banner {
@@ -55,5 +64,32 @@ header div img {
     font-weight: 600;
 }
 
-/* MAIN */
+/* MAIN - GENERALE */
 
+#prima-parte, #seconda-parte {
+    box-shadow: 3px 3px 5px lightgray;
+}
+
+.computer {
+    display: block;
+    margin: 0 auto;
+    width: 100%
+}
+
+/* MAIN - PRIMA PARTE */
+
+/* #prima-parte {
+
+} */
+
+/* MAIN - SECONDA PARTE */
+
+#seconda-parte {
+    margin-top: 35px;
+}
+
+/* FOOTER */
+
+footer {
+    margin-bottom: 0;
+}
